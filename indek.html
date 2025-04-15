@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>NutriPlanner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>NutriPlanner</h1>
+  <p>Masukkan nama makanan dan beratnya untuk melihat kandungan nutrisi!</p>
+  
+  <input type="text" id="inputMakanan" placeholder="Masukkan nama makanan" />
+  <input type="number" id="inputBerat" placeholder="Berat (gram)" min="1" />
+  <button id="tambahMakanan">Tambah Makanan</button>
+
+  <table id="tabelMakanan">
+    <thead>
+      <tr>
+        <th>Makanan</th>
+        <th>Berat (gram)</th>
+        <th>Kalori</th>
+        <th>Protein</th>
+        <th>Lemak</th>
+        <th>Karbohidrat</th>
+        <th>Serat</th>
+        <th>Aksi</th>
+      </tr>
+    </thead>
+    <tbody id="isiTabel"></tbody>
+  </table>
+  <div id="totalNutrisi"></div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
