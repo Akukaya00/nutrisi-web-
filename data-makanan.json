@@ -1,0 +1,24 @@
+{
+    "nasi putih": {
+      "kalori": 175,
+      "protein": 4,
+      "lemak": 0.4,
+      "karbohidrat": 40,
+      "serat": 0.3
+    },
+    "ayam goreng": {
+      "kalori": 250,
+      "protein": 20,
+      "lemak": 15,
+      "karbohidrat": 5,
+      "serat": 0
+    },
+    "tempe": {
+      "kalori": 190,
+      "protein": 14,
+      "lemak": 10,
+      "karbohidrat": 10,
+      "serat": 1
+    }
+  }
+  
